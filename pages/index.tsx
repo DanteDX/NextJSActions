@@ -1,6 +1,7 @@
 import React from 'react';
 import Sample from "./Sample";
 import Another from "./Another";
+import Link from "next/link";
 
 function Local(){
 	return(
@@ -9,7 +10,9 @@ function Local(){
 			<h1>This should be green of color</h1>
 			<Sample />
 			<hr/>
-			<a href="/Green">Click Here to visit Green</a>
+			<Link href="/Green">
+				<a>This uses Link from Next</a>
+			</Link>
 			<br/>
 			<a href="/Another">Click Here to visit Another</a>
 			<br/>
