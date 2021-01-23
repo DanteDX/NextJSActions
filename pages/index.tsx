@@ -1,10 +1,19 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import React from 'react';
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <h3>Hello World</h3>
-    </div>
-  )
+function Local(){
+	return(
+		<div>
+			<h4>This is Local Component</h4>
+			<h1>This should be green of color</h1>
+		</div>
+	)
 }
+
+export default function Home(){
+	return(
+		<div>
+			<h4>This is Home Component</h4>
+			<Local />
+		</div>
+	)
+};
