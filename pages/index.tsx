@@ -1,5 +1,6 @@
 import React from 'react';
 import Sample from "./Sample";
+import Another from "./Another";
 
 function Local(){
 	return(
@@ -7,6 +8,8 @@ function Local(){
 			<h4>This is Local Component</h4>
 			<h1>This should be green of color</h1>
 			<Sample />
+			<hr/>
+			<Another />
 		</div>
 	)
 }
