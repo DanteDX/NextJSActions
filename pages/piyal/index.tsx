@@ -5,7 +5,7 @@ import axios from 'axios';
 const Piyal = () =>{
     const activator = async(e) =>{
         try{
-            const res = await axios.get('/api/hello');
+            const res = await axios.get('/api/hello/?name=shadman&age=100&address=dhaka,bangladesh');
             console.log(res.data);
         }catch(err){
             console.log(err);
