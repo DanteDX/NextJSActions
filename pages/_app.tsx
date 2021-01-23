@@ -1,8 +1,6 @@
-import '../styles/globals.css'
+import "../styles/global.css";
 
-function App({ Component, pageProps }) {
-  console.log('Both Server & Client side rendering');
-  return <Component {...pageProps} />
-}
-
-export default App;
+export default function App({Component,pageProps}){
+	console.log('Hello From App.tsx');
+	return <Component {...pageProps} />
+};
