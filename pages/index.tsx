@@ -1,6 +1,7 @@
 import React from 'react';
 import Sample from "./Sample";
 import Another from "./Another";
+import Dynamic from "./dynamic";
 import Link from "next/link";
 
 function Local(){
@@ -18,6 +19,7 @@ function Local(){
 			<br/>
 			<a href="/piyal">Click Here to visit Piyal</a>
 			<Another />
+			<Dynamic hello="hello world"/>
 		</div>
 	)
 }
